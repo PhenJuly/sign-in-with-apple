@@ -25,17 +25,17 @@ Sign in with Apple 支持跨平台：
 
 首先，进入开发者账号页面，点击： **Certificates, Identifiers and Profiles**,进入配置页面
 
-![1582184162963](img\开发者账号页面.png)
+![1582184162963](https://github.com/PhenJuly/sign-in-with-apple/tree/master/img/开发者账号页面.png)
 
 选择：Identifiers ，点击Identifiers 后面+号，创建 应用或者服务
 
-![1582184333192](img\Identifiers.png)
+![1582184333192](https://github.com/PhenJuly/sign-in-with-apple/tree/master/img/Identifiers.png)
 
 这里选择Service IDS:
 
 如果要是IOS app开发，则选择APP IDS,因为本文主要讲解web授权，因此是Services ID )
 
-![1582184426394](img\RegisterNewIdentifier.png)
+![1582184426394](https://github.com/PhenJuly/sign-in-with-apple/tree/master/img/RegisterNewIdentifier.png)
 
 添加注册服务信息：
 
@@ -57,17 +57,17 @@ Sign in with Apple 支持跨平台：
 
    3. 都配置好 点击 保存save ,继续  continue ，注册 Register即可
 
-![1582184563458](img\RegisterServicesID.png)
+![1582184563458](https://github.com/PhenJuly/sign-in-with-apple/tree/master/img/RegisterServicesID.png)
 
-![1582184663341](img\WebAuthenticationConfiguration.png)
+![1582184663341](https://github.com/PhenJuly/sign-in-with-apple/tree/master/img/WebAuthenticationConfiguration.png)
 
-![1582185166632](img\updateWebAuthenticationConfiguration.png)
+![1582185166632](https://github.com/PhenJuly/sign-in-with-apple/tree/master/img/updateWebAuthenticationConfiguration.png)
 
 创建服务后要创建服务的私钥（后续调用apple服务验证授权码的时候需要用，如果您不验证token有效性等应该不需要配置）
 
 选择左边Keys 廊，点击+按钮，添加keys
 
-![1582185481797](img\keys.png)
+![1582185481797](https://github.com/PhenJuly/sign-in-with-apple/tree/master/img/keys.png)
 
 配置key信息：
 
@@ -85,11 +85,11 @@ Sign in with Apple 支持跨平台：
    -----END PRIVATE KEY-----
    ```
 
-![1582185598702](C:\Users\Administrator\Desktop\开工\my-hero-college\sign-in-with-apple\img\RegisterNewKey.png)
+![1582185598702](https://github.com/PhenJuly/sign-in-with-apple/tree/master/img/RegisterNewKey.png)
 
-![1582185674541](img\ConfigureKey.png)
+![1582185674541](https://github.com/PhenJuly/sign-in-with-apple/tree/master/img/ConfigureKey.png)
 
-![1582185782129](img\DownloadYourKey.png)
+![1582185782129](https://github.com/PhenJuly/sign-in-with-apple/tree/master/img/DownloadYourKey.png)
 
 
 
