@@ -1,0 +1,29 @@
+app.name: Sign-In-with-Apple
+
+server:
+  port: xxx
+  servlet:
+    context-path: /apple
+
+spring:
+  application:
+    name: Sign In with Apple
+  profiles:
+    active: dev
+
+
+
+logging:
+  level:
+    root: debug
+
+apple:
+  login:
+    client-id: xxxxxx
+    token-url: https://appleid.apple.com/auth/token
+    redirect-uri: http://xxxxxx/callback
+    auth-keys-url: https://appleid.apple.com/auth/keys
+
+---
+spring:
+  profiles: dev
